@@ -50,7 +50,6 @@ require ["jquery", "simpleModel" , "leaflet"], ($) ->
     seattle_text = "<h2>Seattle</h2>"+
     "<a href='mailto:seattle@laundromata.com'>seattle@laundromata.com</a><br>"
 
-
     customIcon = L.icon({
       iconUrl: 'images/pin.png'
       iconSize: [35, 90]
