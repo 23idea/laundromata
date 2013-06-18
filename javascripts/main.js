@@ -42,7 +42,7 @@
       tokyo_text = "<h2>Tokyo</h2>" + "<a href='mailto:tokyo@laundromata.com'>tokyo@laundromata.com</a><br>";
       seattle_text = "<h2>Seattle</h2>" + "<a href='mailto:seattle@laundromata.com'>seattle@laundromata.com</a><br>";
       customIcon = L.icon({
-        iconUrl: 'laundromata/images/pin.png',
+        iconUrl: '/laundromata/images/pin.png',
         iconSize: [35, 90],
         popupAnchor: [0, -38]
       });
