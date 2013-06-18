@@ -52,7 +52,7 @@ require ["jquery", "simpleModel" , "leaflet"], ($) ->
 
 
     customIcon = L.icon({
-      iconUrl: '/laundromata/images/pin.png'
+      iconUrl: 'images/pin.png'
       iconSize: [35, 90]
       popupAnchor: [0, -38]
     })
