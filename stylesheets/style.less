@@ -1,0 +1,101 @@
+body, .leaflet-container {
+  background-color: #191919;
+  color: whitesmoke;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body,html{
+  height:100%;
+}
+
+h2 {
+  line-height: 21px;
+  margin: 0px 0px;
+  font-size: 23.5px; 
+}
+
+h2:hover {
+  color: #4BE0FF;
+}
+#map {
+  height: 100%;
+  background-color: #191919;
+}
+#logo{
+  padding: 29px 20px 7px 25px;
+  width: 335px;
+}
+#locations {
+  padding-left: 83px;
+}
+
+#alpha_layer, #content{
+  z-index: 1000;
+  position: absolute;
+  width: 400px;
+  height: 502px;
+  top: 21px;
+  left: 46px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+#alpha_layer {
+  background-color: rgba(0,0,0,0.6);
+}
+
+#bottom {
+  height: 100%
+}
+
+.open{
+  color: #4BE0FF;  
+}
+
+.leaflet-popup-content-wrapper{
+  background: rgba(0,0,0,0.7);
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.leaflet-container a {
+  color: #4BE0FF;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  font-size: 12px;  
+}
+
+
+#basic-modal-content {display:none;}
+
+/* Overlay
+#simplemodal-overlay {background-color:#000;}
+*/
+
+/* Container */
+#simplemodal-container {
+  height:360px;
+  width:600px;
+  color:#bbb;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {
+  background:url(../images/x.png) no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4px 5px 0 0;
+  text-align: center;
+  width: 18px;
+  height: 14px;
+  font: 16px/14px Tahoma, Verdana, sans-serif;
+  color: #c3c3c3;
+  text-decoration: none;
+  font-weight: bold;
+  background: transparent;
+}
+
+#simplemodal-container h3 {color:#84b8d9;}
